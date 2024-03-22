@@ -6,9 +6,9 @@
 // hint.
 
 fn main() {
-<<<<<<< HEAD:exercises/00_intro/intro2.rs
-    printline!("Hello there!")
-=======
+    // <<<<<<< HEAD:exercises/00_intro/intro2.rs
+    // printline!("Hello there!")
+    // =======
     println!("Hello {world}!", world = "world");
->>>>>>> 720eef0 (forgot to fork, we'll figure something out):exercises/intro/intro2.rs
+    // >>>>>>> 720eef0 (forgot to fork, we'll figure something out):exercises/intro/intro2.rs
 }

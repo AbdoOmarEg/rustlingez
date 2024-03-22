@@ -6,12 +6,11 @@
 // Execute `rustlings hint move_semantics5` or use the `hint` watch subcommand
 // for a hint.
 
-<<<<<<< HEAD:exercises/06_move_semantics/move_semantics5.rs
-// I AM NOT DONE
+// <<<<<<< HEAD:exercises/06_move_semantics/move_semantics5.rs
 
 #[test]
-=======
->>>>>>> 720eef0 (forgot to fork, we'll figure something out):exercises/move_semantics/move_semantics5.rs
+// =======
+// >>>>>>> 720eef0 (forgot to fork, we'll figure something out):exercises/move_semantics/move_semantics5.rs
 fn main() {
     let mut x = 100;
     let y = &mut x;
