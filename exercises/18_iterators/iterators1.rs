@@ -9,12 +9,11 @@
 // Execute `rustlings hint iterators1` or use the `hint` watch subcommand for a
 // hint.
 
-<<<<<<< HEAD:exercises/18_iterators/iterators1.rs
-// I AM NOT DONE
+// <<<<<<< HEAD:exercises/18_iterators/iterators1.rs
 
 #[test]
-=======
->>>>>>> 720eef0 (forgot to fork, we'll figure something out):exercises/iterators/iterators1.rs
+// =======
+// >>>>>>> 720eef0 (forgot to fork, we'll figure something out):exercises/iterators/iterators1.rs
 fn main() {
     let my_fav_fruits = vec!["banana", "custard apple", "avocado", "peach", "raspberry"];
 
