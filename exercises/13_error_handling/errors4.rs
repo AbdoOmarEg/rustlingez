@@ -14,10 +14,10 @@ enum CreationError {
 
 impl PositiveNonzeroInteger {
     fn new(value: i64) -> Result<PositiveNonzeroInteger, CreationError> {
-<<<<<<< HEAD:exercises/13_error_handling/errors4.rs
+        // <<<<<<< HEAD:exercises/13_error_handling/errors4.rs
         // Hmm... Why is this always returning an Ok value?
-        Ok(PositiveNonzeroInteger(value as u64))
-=======
+        // Ok(PositiveNonzeroInteger(value as u64))
+        // =======
         // Hmm...? Why is this only returning an Ok value?
         match value {
             1.. => Ok(PositiveNonzeroInteger(value as u64)),
@@ -25,7 +25,7 @@ impl PositiveNonzeroInteger {
             _ => Err(CreationError::Negative),
         }
         // Ok(PositiveNonzeroInteger(value as u64))
->>>>>>> 720eef0 (forgot to fork, we'll figure something out):exercises/error_handling/errors4.rs
+        // >>>>>>> 720eef0 (forgot to fork, we'll figure something out):exercises/error_handling/errors4.rs
     }
 }
 

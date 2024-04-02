@@ -5,9 +5,9 @@
 // Example: England,France,4,2 (England scored 4 goals, France 2).
 //
 // You have to build a scores table containing the name of the team, the total
-// number of goals the team scored, and the total number of goals the team 
-// conceded. One approach to build the scores table is to use a Hashmap. 
-// The solution is partially written to use a Hashmap, 
+// number of goals the team scored, and the total number of goals the team
+// conceded. One approach to build the scores table is to use a Hashmap.
+// The solution is partially written to use a Hashmap,
 // complete it to pass the test.
 //
 // Make me pass the tests!
@@ -39,14 +39,14 @@ fn build_scores_table(results: String) -> HashMap<String, Team> {
         // goals scored by team_2 will be the number of goals conceded by
         // team_1.
         let count = scores.entry(team_1_name.clone()).or_insert(Team {
-            name: team_1_name.clone(),
+            // name: team_1_name.clone(),
             goals_scored: 0,
             goals_conceded: 0,
         });
         count.goals_scored += team_1_score;
         count.goals_conceded += team_2_score;
         let count = scores.entry(team_2_name.clone()).or_insert(Team {
-            name: team_2_name.clone(),
+            // name: team_2_name.clone(),
             goals_scored: 0,
             goals_conceded: 0,
         });

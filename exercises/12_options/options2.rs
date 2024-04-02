@@ -27,16 +27,16 @@ mod tests {
 
         let mut cursor = range;
 
-<<<<<<< HEAD:exercises/12_options/options2.rs
+        // <<<<<<< HEAD:exercises/12_options/options2.rs
         // TODO: make this a while let statement - remember that vector.pop also
         // adds another layer of Option<T>. You can stack `Option<T>`s into
         // while let and if let.
-        integer = optional_integers.pop() {
-=======
+        // integer = optional_integers.pop() {
+        // =======
         // TODO: make this a while let statement - remember that vector.pop also adds another layer of Option<T>
         // You can stack `Option<T>`s into while let and if let
         while let Some(integer) = optional_integers.pop().flatten() {
->>>>>>> 720eef0 (forgot to fork, we'll figure something out):exercises/options/options2.rs
+            // >>>>>>> 720eef0 (forgot to fork, we'll figure something out):exercises/options/options2.rs
             assert_eq!(integer, cursor);
             cursor -= 1;
         }

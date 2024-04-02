@@ -35,16 +35,16 @@ fn fruit_basket(basket: &mut HashMap<Fruit, u32>) {
     ];
 
     for fruit in fruit_kinds {
-<<<<<<< HEAD:exercises/11_hashmaps/hashmaps2.rs
-        // TODO: Insert new fruits if they are not already present in the
-        // basket. Note that you are not allowed to put any type of fruit that's
-        // already present!
-=======
-        // TODO: Insert new fruits if they are not already present in the basket.
-        // Note that you are not allowed to put any type of fruit that's already
-        // present!
+        // <<<<<<< HEAD:exercises/11_hashmaps/hashmaps2.rs
+        //         // TODO: Insert new fruits if they are not already present in the
+        //         // basket. Note that you are not allowed to put any type of fruit that's
+        //         // already present!
+        // =======
+        //         // TODO: Insert new fruits if they are not already present in the basket.
+        //         // Note that you are not allowed to put any type of fruit that's already
+        //         // present!
         basket.entry(fruit).or_insert(1);
->>>>>>> 720eef0 (forgot to fork, we'll figure something out):exercises/hashmaps/hashmaps2.rs
+        // >>>>>>> 720eef0 (forgot to fork, we'll figure something out):exercises/hashmaps/hashmaps2.rs
     }
 }
 
@@ -86,7 +86,7 @@ mod tests {
         let count = basket.values().sum::<u32>();
         assert!(count > 11);
     }
-    
+
     #[test]
     fn all_fruit_types_in_basket() {
         let mut basket = get_fruit_basket();

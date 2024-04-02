@@ -35,14 +35,14 @@ mod tests {
 
     #[test]
     fn raw_value() {
-<<<<<<< HEAD:exercises/12_options/options1.rs
+        // <<<<<<< HEAD:exercises/12_options/options1.rs
         // TODO: Fix this test. How do you get at the value contained in the
         // Option?
-        let icecreams = maybe_icecream(12);
-=======
+        // let icecreams = maybe_icecream(12);
+        // =======
         // TODO: Fix this test. How do you get at the value contained in the Option?
         let icecreams = maybe_icecream(12).unwrap();
->>>>>>> 720eef0 (forgot to fork, we'll figure something out):exercises/options/options1.rs
+        // >>>>>>> 720eef0 (forgot to fork, we'll figure something out):exercises/options/options1.rs
         assert_eq!(icecreams, 5);
     }
 }
